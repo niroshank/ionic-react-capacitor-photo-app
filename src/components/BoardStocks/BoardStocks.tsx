@@ -103,6 +103,14 @@ const BoardStocks = () => {
 
                     <Grid container spacing={2} style={{ marginTop: '20px' }}>
                         <Grid item xs={12} sm={4}>
+                            <Select native>
+                                <option value="Combined">Native Select</option>
+                                <option value="Combined">Combined 1</option>
+                                <option value="Combined">Combined 2</option>
+                                <option value="Combined">Combined 3</option>
+                            </Select>
+                        </Grid>
+                        <Grid item xs={12} sm={4}>
                             <TextField
                                 label="In Stock"
                                 variant="outlined"
